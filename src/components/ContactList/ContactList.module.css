@@ -14,8 +14,20 @@
   margin-right: 12px;
 }
 
-.buttonDelete:hover,
-.buttonDelete:active {
+.buttonDelete {
+  padding: 2px 18px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid gray;
+}
+.buttonDelete:hover {
   background-color: rgb(53, 53, 51);
   color: #ffffff;
+  animation: example 2s;
+}
+
+@keyframes example {
+  50% {
+    transform: translateX(-80px);
+  }
 }
