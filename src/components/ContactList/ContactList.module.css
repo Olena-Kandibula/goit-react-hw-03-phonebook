@@ -23,11 +23,4 @@
 .buttonDelete:hover {
   background-color: rgb(53, 53, 51);
   color: #ffffff;
-  /* animation: example 2s; */
 }
-
-/* @keyframes example {
-  50% {
-    transform: translateX(-80px);
-  }
-} */
